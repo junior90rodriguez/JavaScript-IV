@@ -114,15 +114,15 @@
       }
   }
 
-    class CharacterStats extends GameObject {
-        constructor(childAttributes) {
-            super(childAttributes);
-            this.healthPoints = childAttributes.healthPoints;
+      class CharacterStats extends GameObject {
+          constructor(childAttributes) {
+              super(childAttributes);
+              this.healthPoints = childAttributes.healthPoints;
+      }
+      takeDamage() {
+          return `${this.name} took damage.`;
+      }
     }
-    takeDamage() {
-        return `${this.name} took damage.`;
-    }
-  }
 
     class Humanoid extends CharacterStats {
         constructor(gcAttributes) {
