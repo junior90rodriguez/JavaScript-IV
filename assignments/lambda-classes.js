@@ -40,7 +40,7 @@ class Student extends Instructor {
         return `${this.favSubjects}`;
     }
     PRAssignments(subject) {
-        return `${this.name}has submitted a PR for ${subject}`;
+        return `${this.name} has submitted a PR for ${subject}`;
     }
     sprintChallange(subject) {
         return `${this.name} has begun sprint challenge on ${subject}`;
@@ -53,9 +53,6 @@ class ProjectManager extends Instructor{
         this.gradClassName = proAttributes.gradClassName;
         this.favInstructor = proAttributes.favInstructor;
     }
-    // standup() {
-
-    // }
 }
 
 
@@ -153,3 +150,6 @@ const hector = new ProjectManager({
 console.log(hector.name);
 console.log(junior.speak());
 console.log(arianna.favLanguage);
+console.log(adam.age);
+console.log(julio.demo('React'));
+console.log(jasmin.PRAssignments('Javascript IV'));
