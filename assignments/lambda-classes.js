@@ -55,7 +55,101 @@ class ProjectManager extends Instructor{
     }
     // standup() {
 
-    }
+    // }
 }
 
 
+const junior = new Student({
+    name: 'Junior',
+    location: 'Los Angeles',
+    age: 28,
+    gender: 'male',
+    favLanguage: 'CSS',
+    specialty: 'Front-end',
+    catchPhrase: 'Got em coach'
+});
+
+const arianna = new Student({
+    name: 'Arianna',
+    location: 'Los Angeles',
+    age: 21,
+    gender: 'female',
+    favLanguage: 'React',
+    specialty: 'Front-end',
+    catchPhrase: 'Lets go'
+});
+
+const jasmin = new Student({
+    name: 'Jasmin',
+    location: 'Los Angeles',
+    age: 22,
+    gender: 'female',
+    favLanguage: 'PHP',
+    specialty: 'Back-end',
+    catchPhrase: 'Im here'
+});
+
+const jordyn = new Instructor({
+    name: 'Jordyn',
+    location: 'Des Moines',
+    age: 28,
+    gender: 'female',
+    favLanguage: 'Python',
+    specialty: 'Front-end',
+    catchPhrase: 'Listen Linda'
+});
+
+const adam = new Instructor({
+    name: 'Adam',
+    location: 'Kansas City',
+    age: 32,
+    gender: 'male',
+    favLanguage: 'HTML',
+    specialty: 'Front-end',
+    catchPhrase: 'I loove to code'
+});
+
+const mark = new Instructor({
+    name: 'Mark',
+    location: 'New York',
+    age: 45,
+    gender: 'male',
+    favLanguage: 'CSS',
+    specialty: 'Front-end',
+    catchPhrase: 'CSS rocks'
+});
+
+const julio = new ProjectManager({
+    name: 'Julio',
+    location: 'Oklahoma',
+    age: 37,
+    gender: 'male',
+    favLanguage: 'Ruby',
+    specialty: 'Full-stack',
+    catchPhrase: 'Whats up'
+});
+
+const monica = new ProjectManager({
+    name: 'Monica',
+    location: 'Miami',
+    age: 29,
+    gender: 'female',
+    favLanguage: 'PHP',
+    specialty: 'Back-end',
+    catchPhrase: 'Thats what she said'
+});
+
+const hector = new ProjectManager({
+    name: 'Hector',
+    location: 'Wisconsin',
+    age: 53,
+    gender: 'male',
+    favLanguage: 'CSS',
+    specialty: 'Full-stack',
+    catchPhrase: 'I love cheese'
+});
+
+
+console.log(hector.name);
+console.log(junior.speak());
+console.log(arianna.favLanguage);
